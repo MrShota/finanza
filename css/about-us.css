@@ -1,0 +1,126 @@
+/* ------------------ about us  */
+.about-us {
+    width: 80%;
+    margin-inline: auto;
+
+}
+
+.overview {
+    width: 100%;
+    display: flex;
+}
+
+.overview-text {
+    margin-top: 70px;
+}
+
+.overview-text h1 {
+    font-size: 48px;
+    margin: 10px auto 30px;
+    /* border: 1px solid black; */
+}
+
+.smv {
+    height: 180px;
+    /* border: 1px solid gray; */
+    margin-top: 50px;
+
+}
+
+.story,
+.mission,
+.vision {
+    width: 130px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    border-bottom: .5px solid gray;
+
+}
+
+/* ეს კლასი უნდ ამივცე ბათანებს ჯს დან */
+#styledBtn {
+    border: .5px solid gray;
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+    color: var(--main-color);
+}
+
+.storyText {
+    margin-top: 10px;
+}
+
+.missionText,
+.visionText {
+    display: none;
+    border-radius: 12px;
+}
+
+/* ---------------- info */
+.info {
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    border: .5px solid gray;
+    border-radius: 25px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.info img {
+    width: 28px;
+}
+
+.info h2 {
+    display: inline;
+    padding-left: 15px;
+}
+
+.info p {
+    padding: 15px 0 0 40px;
+}
+
+.vertical-line {
+    border-left: 2px solid gray;
+}
+
+/* ----------------- analitics */
+.analytics {
+    width: 1440px;
+    height: 260px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    margin-left: -145px;
+    padding-inline: 120px;
+}
+
+.analytics img {
+    width: 48px;
+}
+
+.analytics h1 {
+    font-size: 56px;
+}
+
+.analytics p {
+    font-size: 16px;
+    padding: 20px 15px;
+}
+
+.analytics hr {
+    width: 68px;
+    margin-inline: auto;
+}
+
+/* .asd {
+text-align: center;
+} */
+
+.analytics div{
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 100px;
+    color: var(--main-color);
+}
+
+.nav-bar span {
+    font-size: 3rem;
+
+}
+
+.navigation a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navigation a:hover {
+    color: var(--main-color);
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown::after{
+    content: url(/images/down-arrow.png);
+}
+
+.dropbtn {
+    margin-left: 10px;
+    border: none;
+    color: gray;
+    border-style: none;
+}
+
+.dropbtn:hover {
+    color: var(--main-color);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 140px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.dropdown-content a:hover {
+    color: var(--main-color);
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+
+.img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(194, 193, 193);
+    /* font-size: 1rem; */
+}
+
+.img-circle img {
+    width: 12px;
+}

@@ -1,0 +1,89 @@
+/* ------------ Slideshow container */
+
+.carousel-container {
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+
+}
+
+.slide {
+    display: flex;
+    /* justify-content: space-around/; */
+}
+
+.carousel-text {
+    width: 730px;
+    height: 330px;
+    margin-left: 220px;
+    margin-top: 100px;
+    /* border: 1px solid black; */
+    position: absolute;
+}
+
+.slide img {
+    margin-left: 590px;
+    margin-top: -80px;
+    /* border: 1px solid black; */
+}
+
+.information-text {
+    width: 182px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid white;
+    color: var(--main-color);
+
+}
+
+.carousel-text h1 {
+    /* width: 100%; */
+    font-size: 80px;
+    margin: 30px 0 20px;
+}
+
+.carousel-text button {
+    width: 157px;
+    height: 44px;
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border-style: none;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transition: .6 ease;
+    cursor: pointer;
+    background-color: var(--main-color);
+    border-radius: 0 50px 50px 0;
+    color: white;
+}
+
+.next {
+    right: 0;
+}
+
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

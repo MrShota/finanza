@@ -1,0 +1,27 @@
+/* @import url(top.bar.css); */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #355EFC;
+
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/hero\ shape.png);
+    background-repeat: no-repeat;
+}
+
+hr {
+    width: 100%;
+}

@@ -1,0 +1,91 @@
+.why-choosing-us {
+    width: 80%;
+    height: 530px;
+    margin-inline: auto;
+    /* margin-top: 30px; */
+    border: 1px solid red;
+    display: flex;
+    margin-top: 40px;
+}
+
+.welcome {
+    width: 540px;
+    height: 334px;
+    margin: auto;
+}
+
+.welcome h1 {
+    font-size: 48px;
+}
+
+.welcome p {
+    font: 16px;
+    
+}
+
+.welcome button {
+    width: 157px;
+    height: 44px;
+    padding: 10px, 25px, 10px, 25px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border-style: none;
+}
+
+/* ------------------------two cards div */
+.two-cards-div,
+.one-card-div {
+    width: 258px;
+    height: 100%;
+}
+
+.two-cards-div img,
+.one-card-div img {
+    width: 43px;
+}
+
+.two-cards-div h1,
+.one-card-div h1 {
+    font-size: 24px;
+}
+
+.two-cards-div p,
+.one-card-div p {
+    font-size: 16px;
+}
+
+.two-cards-div button,
+.one-card-div button {
+    width: 112px;
+    height: 24px;
+    border: none;
+    background-color: none;
+    color: var(--main-color);
+}
+.two-cards-div span img,
+.one-card-div span img{
+   width: 20px;
+    border: none;
+    background-color: none;
+}
+
+
+.two-cards-div div,
+.one-card-div  {
+    width: 258px;
+    height: 255px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.two-cards-div :last-child {
+    background-color: var(--main-color);
+    color: white;
+    margin-top: 20px;
+}
+.one-card-div{
+    margin: auto 15px;
+}
